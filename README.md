@@ -30,18 +30,18 @@
   - Multiple Linear Regression worked best on the goalkeeper sub-dataset in predicting the overall using major player attributes
   - It seems that non-defensive field player overall cannot be completely explained with multiple linear regression.
   - Although multiple linear regression cannot perfectly explain the relationship between the variables in predicting overall, the following are equations with coefficients that resulted from this project:
-  [Pretty Good!] (defensive field players) Overall = 6.6262 + 0.0031*(Pace) - 0.0017*(Shooting) + 0.2805*(Passing) + 0.1566*(Dribbling) + 0.1032*(Physic) + 0.4143*(Defending)
-  [Good!] (non-defensive field players) Overall = 19.0332 - 0.0476*(Pace) + 0.0017*(Shooting) + 0.2171*(Passing) + 0.2544*(Dribbling) + 0.3479*(Physic)
-  [Okay...] (goalkeepers) Overall = -1.0309 + 0.2416*(Diving) + 0.2179*(Handling) + 0.0558*(Kicking) + 0.2476*(Reflexes) + 0.0142*(Speed) + 0.2499*(Positioning)
+  - [Pretty Good!] (defensive field players) Overall = 6.6262 + 0.0031*(Pace) - 0.0017*(Shooting) + 0.2805*(Passing) + 0.1566*(Dribbling) + 0.1032*(Physic) + 0.4143*(Defending)
+  - [Good!] (non-defensive field players) Overall = 19.0332 - 0.0476*(Pace) + 0.0017*(Shooting) + 0.2171*(Passing) + 0.2544*(Dribbling) + 0.3479*(Physic)
+  - [Okay...] (goalkeepers) Overall = -1.0309 + 0.2416*(Diving) + 0.2179*(Handling) + 0.0558*(Kicking) + 0.2476*(Reflexes) + 0.0142*(Speed) + 0.2499*(Positioning)
   
-  (and some other technical material I've learned)
+  - (and some other technical material I've learned)
   - Importance of Cleaning the Dataset
-  -Importance of Knowing and Exploring the Dataset
-  -Implementation of Multiple Linear Regression in Python
-  -Fundamental Ideas of Multiple Linear Regression
-  -Evaluating and Comparing Different Linear Regression Models
-  -Some Data Visualization Methods in Python (Density Plots and Pairplots)
-  -Further Possibilities & Next Steps to Take in Learning about Regression
+  - Importance of Knowing and Exploring the Dataset
+  - Implementation of Multiple Linear Regression in Python
+  - Fundamental Ideas of Multiple Linear Regression
+  - Evaluating and Comparing Different Linear Regression Models
+  - Some Data Visualization Methods in Python (Density Plots and Pairplots)
+  - Further Possibilities & Next Steps to Take in Learning about Regression
 
 
 ## Part 6: Resources that Helped Me with this Project
