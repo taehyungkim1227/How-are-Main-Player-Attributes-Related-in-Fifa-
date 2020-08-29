@@ -19,9 +19,30 @@
   - The correlation coefficients were reflected on the pairplots with strong linearity for certain variables and the overall.
 
 ## Part 4: Model Building and Evaluation
-  For this part, 
+  For this part, I built multiple linear regression models with ordinary least squares methods for each of the sub datasets. I split each dataset into train(80%)/test(20%) sets.
+  - For defensive field players: predicted variable- Overall, predictor variables- Pace, Shooting, Passing, Dribbling, Physic, Defending (Results = R-squared(test data) = 0.8972, test MSE = 4.3509 )
+  - For non-defensive field players: predicted variable- Overall, predictor variables- Pace, Shooting, Passing, Dribbling, Physic (Results = R-squared(test data) = 0.6847, test MSE = 15.2473)
+  - For goalkeepers: predicted variable- Overall, predictor variables- Pace, Shooting, Passing, Dribbling, Physic, Defending (Results = R-squared(test data) = 0.9902, test MSE = 0.5687) 
+  (Bonus: for goalkeepers, to check for linearity, I created a residual plot of residuals vs predicted y-values. The datapoints did not follow a specific pattern, indicating that there is a significant chance of linearity among the goalkeeper sub-dataset)
 
 ## Part 5: Final Thoughts and What I've Learned
+  Through this project, I had some interesting findings and new material that I've learned.
+  - Multiple Linear Regression worked best on the goalkeeper sub-dataset in predicting the overall using major player attributes
+  - It seems that non-defensive field player overall cannot be completely explained with multiple linear regression.
+  - Although multiple linear regression cannot perfectly explain the relationship between the variables in predicting overall, the following are equations with coefficients that resulted from this project:
+  [Pretty Good!] (defensive field players) Overall = 6.6262 + 0.0031*(Pace) - 0.0017*(Shooting) + 0.2805*(Passing) + 0.1566*(Dribbling) + 0.1032*(Physic) + 0.4143*(Defending)
+  [Good!] (non-defensive field players) Overall = 19.0332 - 0.0476*(Pace) + 0.0017*(Shooting) + 0.2171*(Passing) + 0.2544*(Dribbling) + 0.3479*(Physic)
+  [Okay...] (goalkeepers) Overall = -1.0309 + 0.2416*(Diving) + 0.2179*(Handling) + 0.0558*(Kicking) + 0.2476*(Reflexes) + 0.0142*(Speed) + 0.2499*(Positioning)
+  
+  (and some other technical material I've learned)
+  - Importance of Cleaning the Dataset
+  -Importance of Knowing and Exploring the Dataset
+  -Implementation of Multiple Linear Regression in Python
+  -Fundamental Ideas of Multiple Linear Regression
+  -Evaluating and Comparing Different Linear Regression Models
+  -Some Data Visualization Methods in Python (Density Plots and Pairplots)
+  -Further Possibilities & Next Steps to Take in Learning about Regression
+
 
 ## Part 6: Resources that Helped Me with this Project
 
