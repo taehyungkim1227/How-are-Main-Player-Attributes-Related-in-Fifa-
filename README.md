@@ -16,7 +16,7 @@
   - For non-defensive field players, Passing (r = 0.6696) and Dribbling (r = 0.5835) seem to have the highest correlations with overall. Pace (r = 0.1933) also seems to have the lowest.
   - For goalkeepers, Diving (r = 0.9489) had the highest and Speed (r = 0.4807) had the lowest correlations with overall, but other attributes such as Handling, Reflexes, Positioning all had correlation values above 0.9 and were highly correlated with overall as well. 
   - The overall statistic seem to be normally distributed.
-  - ![](Visualizations/1.png)
+  - ![](Visualizations/distribution.png)
   - The correlation coefficients were reflected on the pairplots with strong linearity for certain variables and the overall.
 
 ## Part 4: Model Building and Evaluation
@@ -25,6 +25,7 @@
   - For non-defensive field players: predicted variable- Overall, predictor variables- Pace, Shooting, Passing, Dribbling, Physic (Results = R-squared(test data) = 0.6847, test MSE = 15.2473)
   - For goalkeepers: predicted variable- Overall, predictor variables- Pace, Shooting, Passing, Dribbling, Physic, Defending (Results = R-squared(test data) = 0.9902, test MSE = 0.5687) 
   (Bonus: for goalkeepers, to check for linearity, I created a residual plot of residuals vs predicted y-values. The datapoints did not follow a specific pattern, indicating that there is a significant chance of linearity among the goalkeeper sub-dataset)
+  ![](Visualizations/residual_plot.png)
 
 ## Part 5: Final Thoughts and What I've Learned
   Through this project, I had some interesting findings and new material that I've learned.
