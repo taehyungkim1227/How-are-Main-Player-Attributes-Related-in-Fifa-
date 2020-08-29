@@ -16,7 +16,7 @@
   - For non-defensive field players, Passing (r = 0.6696) and Dribbling (r = 0.5835) seem to have the highest correlations with overall. Pace (r = 0.1933) also seems to have the lowest.
   - For goalkeepers, Diving (r = 0.9489) had the highest and Speed (r = 0.4807) had the lowest correlations with overall, but other attributes such as Handling, Reflexes, Positioning all had correlation values above 0.9 and were highly correlated with overall as well. 
   - The overall statistic seem to be normally distributed.
-  ![](Visualizations/distribution viz.png)
+  - ![](Visualizations/1.png)
   - The correlation coefficients were reflected on the pairplots with strong linearity for certain variables and the overall.
 
 ## Part 4: Model Building and Evaluation
