@@ -46,8 +46,8 @@
 
 ## Part 6: Resources that Helped Me with this Project
 
-https://datatofish.com/multiple-linear-regression-python/
-https://searchengineland.com/heres-how-i-used-python-to-build-a-regression-model-using-an-e-commerce-dataset-326493
-http://faculty.marshall.usc.edu/gareth-james/ISL/
-https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset 
-https://python-graph-gallery.com/74-density-plot-of-several-variables/
+- https://datatofish.com/multiple-linear-regression-python/
+- https://searchengineland.com/heres-how-i-used-python-to-build-a-regression-model-using-an-e-commerce-dataset-326493
+- http://faculty.marshall.usc.edu/gareth-james/ISL/
+- https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset 
+- https://python-graph-gallery.com/74-density-plot-of-several-variables/
